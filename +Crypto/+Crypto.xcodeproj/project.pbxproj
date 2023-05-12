@@ -90,8 +90,8 @@
 		3A3811A929D228FE0058B736 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				3A34E10F29D8C3EA00F22A68 /* Home */,
 				3A3811AE29D22AFE0058B736 /* Components */,
+				3A34E10F29D8C3EA00F22A68 /* Home */,
 			);
 			path = Core;
 			sourceTree = "<group>";
