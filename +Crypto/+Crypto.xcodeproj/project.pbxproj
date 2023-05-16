@@ -33,6 +33,7 @@
 		3A8C7AA929CC8A09007BBE57 /* logo-transparent@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A8C7A9A29CC8A08007BBE57 /* logo-transparent@3x.png */; };
 		3A8C7AC529CC8A82007BBE57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8C7AC429CC8A81007BBE57 /* Assets.xcassets */; };
 		3A98204029CF1E17008A21A3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A98203F29CF1E17008A21A3 /* Color.swift */; };
+		3ACCD8C42A14289600F0FE8B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACCD8C32A14289600F0FE8B /* HomeViewModel.swift */; };
 		3ADF5DEF29D9EC7900E99AEC /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADF5DEE29D9EC7900E99AEC /* Double.swift */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		3A8C7A9A29CC8A08007BBE57 /* logo-transparent@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-transparent@3x.png"; sourceTree = "<group>"; };
 		3A8C7AC429CC8A81007BBE57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A98203F29CF1E17008A21A3 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		3ACCD8C32A14289600F0FE8B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		3ADF5DEE29D9EC7900E99AEC /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +110,7 @@
 		3A3811AB29D2290F0058B736 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				3ACCD8C32A14289600F0FE8B /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A34E11129D8C41000F22A68 /* CoinRowView.swift in Sources */,
+				3ACCD8C42A14289600F0FE8B /* HomeViewModel.swift in Sources */,
 				3A8C7A7B29CC887F007BBE57 /* ContentView.swift in Sources */,
 				3A3811AD29D2292F0058B736 /* HomeView.swift in Sources */,
 				3A8C7A7929CC887F007BBE57 /* _CryptoApp.swift in Sources */,

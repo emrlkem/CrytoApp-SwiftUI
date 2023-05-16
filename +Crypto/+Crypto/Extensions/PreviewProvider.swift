@@ -10,17 +10,19 @@ import SwiftUI
 
 extension PreviewProvider {
     
-    static var dev: DeveloperPrivew {
-        return DeveloperPrivew.instance
+    static var dev: DeveloperPreview {
+        return DeveloperPreview.instance
     }
     
 }
 
 
-class DeveloperPrivew {
+class DeveloperPreview {
     
-    static let instance = DeveloperPrivew()
+    static let instance = DeveloperPreview()
     private init() { }
+    
+    let homeVM = HomeViewModel()
     
     let coin = CoinModel(
         id: "bitcoin",
